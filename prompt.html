@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story Prompt Generator - Prompts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="art.html">art</a></li>
+        </ul>
+      </div>
+
+      <div class="prompt-content">
+        <h1 id="prompt">Prompt loading...</h1>
+        <button onclick="getPrompt()" ;>get another prompt</button>
+        <p>------------------------ OR ------------------------</p>
+        <h3>write as much as you can in one minute 😊</h3>
+        <button id="timer" onclick="displayTimerOn(); timesUp()" ;>
+          start timer
+        </button>
+        <p id="time-display">YOUR TIMER IS ON!!!!</p>
+        <br />
+        <br />
+        <textarea id="text-field" rows="20" cols="100"></textarea>
+        <br />
+        <br />
+        <button id="copy-clipboard" onclick="copyContent()" ;>
+          copy to clipboard
+        </button>
+        <button id="linkedbtn">
+          <a href="mailto:sna318@nyu.edu">submit your free write</a>
+        </button>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class="footer">syeda anjum ctw fall 2023 final</div>
+    </div>
+  </body>
+</html>

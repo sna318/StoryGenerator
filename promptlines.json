@@ -1,0 +1,17 @@
+{
+  "description": "list of story generation prompts",
+  "promptOptions": [
+    {
+      "prompt": "A woman discovers her knight in shining armor is a douchebag."
+    },
+    {
+      "prompt": "A person wearing a ski mask ventures into the digital realm."
+    },
+    {
+      "prompt": "A florist sprays her bouquets with her enemy's favorite perfume."
+    },
+    { "prompt": "A pianist plagarizes a symphony by her teacher's mom." },
+    { "prompt": "A clown and a rower enter a screaming match at the morgue." },
+    { "prompt": "A jester pranks a businesswoman." }
+  ]
+}

@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* .prompt-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 9fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "nav"
+    "prompt-content"
+    "footer";
+} */
+
+.nav {
+  /* grid-area: nav; */
+  background-color: #0e273c;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  justify-content: right;
+  justify-items: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.nav ul li {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #e6d3a3;
+}
+
+.nav ul li a:hover {
+  background-color: #ac3931;
+  padding: 20px;
+}
+
+.footer {
+  /* grid-area: footer; */
+  background-color: #0e273c;
+  padding: 20px;
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+  text-align: center;
+  color: #e6d3a3;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Ultra", serif;
+  letter-spacing: 2px;
+  color: #0e273c;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+  text-align: left;
+}
+
+p,
+button {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+}
+
+button {
+  border-radius: 100px;
+  width: 250px;
+  height: 70px;
+  background-color: #ac3931;
+  color: #e6d3a3;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* only on home page */
+.main-content {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+/* only on prompts page */
+.prompt-content {
+  /* grid-area: prompt-content; */
+  text-align: center;
+  padding: 100px;
+}
+
+/* only on stories page */
+.stories-content {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  text-align: center;
+  padding: 100px;
+}
+
+#time-display {
+  display: none;
+  font-size: 32px;
+  background-color: #0e273c;
+  color: white;
+  padding: 20px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  margin: 20px;
+  background-color: #ac3931;
+  padding: 30px;
+}
+
+.art {
+  text-align: center;
+}
+
+.art a {
+  text-decoration: none;
+  color: #e6d3a3;
+}
+
+#linkedbtn a {
+  text-decoration: none;
+  color: #e6d3a3;
+}
