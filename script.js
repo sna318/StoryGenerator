@@ -1,7 +1,7 @@
 async function getPrompt() {
   let response = await fetch("promptlines.json");
   let promptData = await response.json();
-  let randomNumber = Math.floor(Math.random() * 7);
+  let randomNumber = Math.floor(Math.random() * 12);
   let newPrompt = promptData.promptOptions[randomNumber].prompt;
   document.querySelector("#prompt").textContent = newPrompt;
 }

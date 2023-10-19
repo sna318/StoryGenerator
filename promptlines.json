@@ -12,6 +12,15 @@
     },
     { "prompt": "A pianist plagarizes a symphony by her teacher's mom." },
     { "prompt": "A clown and a rower enter a screaming match at the morgue." },
-    { "prompt": "A jester pranks a businesswoman." }
+    { "prompt": "A jester pranks a businesswoman." },
+    {
+      "prompt": "A person dressed as a bee cries in the middle of the parking lot."
+    },
+    { "prompt": "A pageant queen constructs her 100th bookcase." },
+    { "prompt": "A ghost adopts a cat and they chill together by the river." },
+    { "prompt": "A siren loses her voice." },
+    {
+      "prompt": "A dude quits the mafia business and opens up an actual pizza shop."
+    }
   ]
 }
